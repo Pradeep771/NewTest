@@ -6,21 +6,8 @@ fi
 
 
 dir_name=`basename $(pwd)`
-read -p "Do you want to use '$dir_name' as a repo name?(y/n)" answer_dirname
-case $answer_dirname in
-  y)
-    # use currently dir name as a repo name
     reponame=$dir_name
-    ;;
-  n)
-    read -p "Enter your new repository name: " reponame
-    if [ "$reponame" = "" ]; then
-        reponame=$dir_name
-    fi
-    ;;
-  *)
-    ;;
-esac
+  
 
 
 echo "Creating Github repository '$reponame' ..."
