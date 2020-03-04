@@ -17,7 +17,7 @@ echo " done."
 
 echo "Creating README ..."
 touch README.md
-echo " done."
+echo " done1."
 
 
 echo "Pushing to remote ..."
