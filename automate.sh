@@ -30,3 +30,4 @@ git push -u origin master
 echo " done123."
 echo "Commit master"
 echo "Commit First"
+echo "Commit feature"
